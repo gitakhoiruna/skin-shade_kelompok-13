@@ -1,0 +1,35 @@
+name: skin_shade
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.1.2
+  camera: ^0.10.5+9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.3.15
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/home/
+
+flutter_native_splash:
+  color: "#FFF0F3"
+  image: "assets/images/home/logo_skinshade.png"
+  fullscreen: true
+  android_12:
+    color: "#FFF0F3"
+    image: "assets/images/home/logo_skinshade.png"
